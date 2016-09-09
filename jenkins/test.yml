@@ -1,7 +1,7 @@
 ---
 modules:
   blazemeter:
-    token: 0b203f0b4cf4ee6abf99
+    token: 6101a4123225344c45f3
 
 reporting:
   - module: blazemeter
@@ -9,7 +9,7 @@ reporting:
 
 execution:
   concurrency: 200
-  ramp-up: 5m
+  ramp-up: 2m
   hold-for: 5m
 
   scenario:

@@ -1,0 +1,8 @@
+---
+execution:
+- executor: selenium
+  concurrency: 3
+  ramp-up: 30s
+  hold-for: 2m
+  scenario: selenium2.py
+
